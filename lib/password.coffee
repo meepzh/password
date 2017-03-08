@@ -5,7 +5,7 @@ module.exports = (l) ->
   return '' if l < 1
   words = []
   while words.length < l
-    random = randomBytes(2).readUInt16LE(0) & 0x7fff
+    random = randomBytes(2).readUInt16LE(0) & 0x07ff
     continue if random >= wordlist.length
     words.push wordlist[random]
   return words.join ' '

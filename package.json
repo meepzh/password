@@ -1,21 +1,27 @@
 {
   "name": "password",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Memorable passwords generator",
-  "license": "UNLICENSE",
+  "license": "(Unlicense AND CC-BY-3.0)",
   "keywords": [
     "password",
     "generator"
   ],
-  "author": {
-    "name": "Stephane Alnet",
-    "email": "stephane@shimaore.net"
-  },
+  "contributors": [
+    {
+      "name": "Stephane Alnet",
+      "email": "stephane@shimaore.net"
+    },
+    {
+      "name": "Robert Zhou",
+      "email": "meep.github@meepzh.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/shimaore/password.git"
+    "url": "https://github.com/meepzh/password.git"
   },
-  "homepage": "https://github.com/shimaore/password",
+  "homepage": "https://github.com/meepzh/password",
   "main": "lib/password.js",
   "files": [
     "lib/password.js",
